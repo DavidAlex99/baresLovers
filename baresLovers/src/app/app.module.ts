@@ -3,13 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { OptionsBarComponent } from './options-bar/options-bar.component';
 import { HttpClientModule } from  '@angular/common/http';
+import { GridBarComponent } from './components/grid-bar/grid-bar.component';
+import { GridPostComponent } from './components/grid-post/grid-post.component';
+import { GridEventComponent } from './components/grid-event/grid-event.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { DetallesBarComponent } from './components/detalles-bar/detalles-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OptionsBarComponent
+    GridBarComponent,
+    GridPostComponent,
+    GridEventComponent,
+    NavBarComponent,
+    DetallesBarComponent
   ],
   imports: [
     BrowserModule,

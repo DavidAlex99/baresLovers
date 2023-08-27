@@ -1,0 +1,35 @@
+<!-- <div class="col" *ngFor="let bar of data">
+    <div class="card shadow-sm">
+        <img [src]="bar.poster[0]?.url" alt="{{bar.name}}">
+  
+      <div class="card-body">
+        <p class="card-text">{{bar.ubication}}</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+          </div>
+          <small class="text-muted">9 mins</small>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="col">
+    <div class="card shadow-sm">
+      <a [routerLink]="['/bares', bar._id]">
+        <img [src]="bar.poster[0]?.url" alt="{{bar.name}}">
+      </a>
+  
+      <div class="card-body">
+        <p class="card-text">{{bar.ubication}}</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+          </div>
+          <small class="text-muted">9 mins</small>
+        </div>
+      </div>
+    </div>
+</div>

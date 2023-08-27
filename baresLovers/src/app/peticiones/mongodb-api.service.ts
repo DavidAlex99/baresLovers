@@ -2,6 +2,8 @@ import { Injectable } from '@angular/core';
 
 //Importación del HttpClient
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Root2 } from '../interfaces/informacion-bar';
 
 @Injectable({
   providedIn: 'root'
@@ -19,4 +21,9 @@ export class MongodbAPIService {
   getResponse() {
     return this.http.get(this.URL);
   }
+
+  getBarDetails(name: string): Observable<Root2> {
+    return this.http.get<Root2>(`${this.URL}/bars/${name}`);
+  }
 }
+  
