@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { MongodbAPIService } from './mongodb-api.service';
+import { MainBarService } from './main-bar.service';
 
-describe('MongodbAPIService', () => {
-  let service: MongodbAPIService;
+describe('MainBarService', () => {
+  let service: MainBarService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(MongodbAPIService);
+    service = TestBed.inject(MainBarService);
   });
 
   it('should be created', () => {

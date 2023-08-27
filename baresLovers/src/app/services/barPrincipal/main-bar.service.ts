@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 //Importación del HttpClient
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Root2 } from '../interfaces/informacion-bar';
+import { Root2 } from '../../interfaces/informacion-bar';
 
 @Injectable({
   providedIn: 'root'

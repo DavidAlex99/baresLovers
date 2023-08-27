@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 import {Root2} from './interfaces/informacion-bar';
 
  //Importación del servicio
-import {MongodbAPIService} from './peticiones/mongodb-api.service';
+import {MongodbAPIService} from './services/barPrincipal/main-bar.service';
 
 @Component({
   selector: 'app-root',
