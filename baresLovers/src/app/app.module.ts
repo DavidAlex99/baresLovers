@@ -9,6 +9,9 @@ import { GridPostComponent } from './components/grid-post/grid-post.component';
 import { GridEventComponent } from './components/grid-event/grid-event.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { DetallesBarComponent } from './components/detalles-bar/detalles-bar.component';
+import { NewPostComponent } from './pages/new-post/new-post.component';
+import { CuerpoNewPostComponent } from './components/cuerpo-new-post/cuerpo-new-post.component';
+import { MultimediaNewPostComponent } from './components/multimedia-new-post/multimedia-new-post.component';
 import { VisualBarComponent } from './components/visual-bar/visual-bar.component';
 
 @NgModule({
@@ -19,7 +22,11 @@ import { VisualBarComponent } from './components/visual-bar/visual-bar.component
     GridEventComponent,
     NavBarComponent,
     DetallesBarComponent,
+    NewPostComponent,
+    CuerpoNewPostComponent,
+    MultimediaNewPostComponent,
     VisualBarComponent
+
   ],
   imports: [
     BrowserModule,
