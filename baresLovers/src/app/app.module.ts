@@ -9,6 +9,7 @@ import { GridPostComponent } from './components/grid-post/grid-post.component';
 import { GridEventComponent } from './components/grid-event/grid-event.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { DetallesBarComponent } from './components/detalles-bar/detalles-bar.component';
+import { VisualBarComponent } from './components/visual-bar/visual-bar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DetallesBarComponent } from './components/detalles-bar/detalles-bar.com
     GridPostComponent,
     GridEventComponent,
     NavBarComponent,
-    DetallesBarComponent
+    DetallesBarComponent,
+    VisualBarComponent
   ],
   imports: [
     BrowserModule,

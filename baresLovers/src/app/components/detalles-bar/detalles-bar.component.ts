@@ -39,6 +39,7 @@ export class DetallesBarComponent implements OnInit {
 
   ngOnInit(): void {
     const barId = this.route.snapshot.paramMap.get('barId');
+    console.log("error");
     if (barId) {
         this.barService.getBarById(barId).subscribe(data => {
             this.bar = data;

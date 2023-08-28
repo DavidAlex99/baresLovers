@@ -22,8 +22,8 @@ export class MongodbAPIService {
     return this.http.get(this.URL);
   }
 
-  getBarDetails(name: string): Observable<Root2> {
-    return this.http.get<Root2>(`${this.URL}/bars/${name}`);
-  }
+  // getBarDetails(name: string): Observable<Root2> {
+  //   return this.http.get<Root2>(`${this.URL}/bars/${name}`);
+  // }
 }
   

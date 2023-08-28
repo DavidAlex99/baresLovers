@@ -1,0 +1,18 @@
+<div class="col">
+    <div class="card shadow-sm">
+      <a routerLink="/bares/64e1ca094da4c1b5dd30092e">
+        <img [src]="bar.poster[0]?.url" alt="{{bar.name}}">
+      </a>
+  
+      <div class="card-body">
+        <p class="card-text">{{bar.ubication}}</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+          </div>
+          <small class="text-muted">9 mins</small>
+        </div>
+      </div>
+    </div>
+</div>
