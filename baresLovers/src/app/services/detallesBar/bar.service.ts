@@ -12,8 +12,8 @@ export class BarService {
 
   constructor(private http: HttpClient) { }
 
-  getBarById(name: string): Observable<Root2> {
-    return this.http.get<Root2>(`${this.apiUrl}/bars/${name}`);
+  getBarById(id: string): Observable<Root2> {
+    return this.http.get<Root2>(`${this.apiUrl}/bares/${id}`);
   }
   
 }

@@ -1,5 +1,16 @@
-<div *ngIf="bar">
-    <h2>{{ bar.name }}</h2>
-    <img [src]="bar.poster[0]?.url" alt="{{bar.name}}">
-    <p>{{ bar.detailedDescription }}</p>
+<h2>Este es el bar: {{ bar.name }}</h2>
+
+<div class="col">
+    <div class="card shadow-sm">
+      
+      <img [src]="bar.poster[0]?.url" alt="{{bar.name}}" width="359px">
+      
+  
+      <div class="card-body">
+        <p class="card-text">{{bar.ubication}}</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <small class="text-muted">9 mins</small>
+        </div>
+      </div>
+    </div>
 </div>

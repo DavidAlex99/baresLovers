@@ -13,7 +13,7 @@ import { NewPostComponent } from './pages/new-post/new-post.component';
 import { CuerpoNewPostComponent } from './components/cuerpo-new-post/cuerpo-new-post.component';
 import { MultimediaNewPostComponent } from './components/multimedia-new-post/multimedia-new-post.component';
 import { VisualBarComponent } from './components/visual-bar/visual-bar.component';
-import { NewsComponent } from './news/news.component';
+import { NewsComponent } from './components/news/news.component';
 
 @NgModule({
   declarations: [
