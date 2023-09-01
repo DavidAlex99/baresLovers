@@ -20,4 +20,4 @@
 
 ## Notas (Estructura)
 Debido a la presencia de muchos componentes, y para no causar confusion en saber cua es el rol de cada uno, se explica como es la estructura e interaccion de cada uno en el proyecto
-!estructura https://github.com/DavidAlex99/baresLovers/blob/main/baresLovers/src/assets/Estructura.drawio.png?raw=true
+<img src="https://github.com/DavidAlex99/baresLovers/blob/main/baresLovers/src/assets/Estructura.drawio.png?raw=true" alt="Estructura de componentes"/>
