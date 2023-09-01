@@ -14,6 +14,12 @@ import { CuerpoNewPostComponent } from './components/cuerpo-new-post/cuerpo-new-
 import { MultimediaNewPostComponent } from './components/multimedia-new-post/multimedia-new-post.component';
 import { VisualBarComponent } from './components/visual-bar/visual-bar.component';
 import { NewsComponent } from './components/news/news.component';
+import { VisualFoodComponent } from './components/visual-food/visual-food.component';
+import { VisualEventoComponent } from './components/visual-evento/visual-evento.component';
+import { VisualPostComponent } from './components/visual-post/visual-post.component';
+import { DetallesFoodComponent } from './components/detalles-food/detalles-food.component';
+import { DetallesEventoComponent } from './components/detalles-evento/detalles-evento.component';
+import { DetallesPostComponent } from './components/detalles-post/detalles-post.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +33,13 @@ import { NewsComponent } from './components/news/news.component';
     CuerpoNewPostComponent,
     MultimediaNewPostComponent,
     VisualBarComponent,
-    NewsComponent
+    NewsComponent,
+    VisualFoodComponent,
+    VisualEventoComponent,
+    VisualPostComponent,
+    DetallesFoodComponent,
+    DetallesEventoComponent,
+    DetallesPostComponent
 
   ],
   imports: [

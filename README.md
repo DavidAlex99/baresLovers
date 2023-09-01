@@ -17,3 +17,6 @@
 `ng serve -o`
 
 ### Por defecto, al incializar cualquier servicio, se usa el puerto 3000, de manera que el primer servicio que se inicie tendra el puerto 3000. Autom. se cambia de puerto al momento de incializar otro servicio
+
+## Notas (Estructura)
+Debido a la presencia de muchos componentes, y para no causar confusion en saber cua es el rol de cada uno, se explica como es la estructura e interaccion de cada uno en el proyecto
