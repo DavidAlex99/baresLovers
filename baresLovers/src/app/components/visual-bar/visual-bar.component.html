@@ -1,7 +1,9 @@
 <div class="col">
     <div class="card shadow-sm">
       <a [routerLink]="['/bares', bar._id]">
-        <img [src]="bar.poster[0]?.url" alt="{{bar.name}}" width="359px">
+        <div class="image-container">
+          <img [src]="bar.poster[0]?.url" alt="{{bar.name}}">
+        </div>
       </a>
   
       <div class="card-body">

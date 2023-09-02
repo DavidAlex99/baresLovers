@@ -20,6 +20,7 @@ import { VisualPostComponent } from './components/visual-post/visual-post.compon
 import { DetallesFoodComponent } from './components/detalles-food/detalles-food.component';
 import { DetallesEventoComponent } from './components/detalles-evento/detalles-evento.component';
 import { DetallesPostComponent } from './components/detalles-post/detalles-post.component';
+import { NewEventComponent } from './components/newCreation/new-event/new-event.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { DetallesPostComponent } from './components/detalles-post/detalles-post.
     VisualPostComponent,
     DetallesFoodComponent,
     DetallesEventoComponent,
-    DetallesPostComponent
+    DetallesPostComponent,
+    NewEventComponent
 
   ],
   imports: [
